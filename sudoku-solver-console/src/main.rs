@@ -4,16 +4,16 @@ use clap::Parser;
 use colored::Colorize;
 
 #[derive(Debug, Parser)]
-#[clap(name = "Sudoku Solver")]
-#[clap(about = r#"Sudoku variant solver utility.
+#[command(name = "Sudoku Solver")]
+#[command(about = r#"Sudoku variant solver utility.
 
 GitHub: https://github.com/dclamage/SudokuSolverRust
 Patreon: https://www.patreon.com/rangsk
 YouTube: https://www.youtube.com/rangsk"#)]
-#[clap(author, version, long_about = None)]
+#[command(author, version, long_about = None)]
 struct Args {
     /// Listen for websocket connections
-    #[clap(short, long, action = clap::ArgAction::SetTrue)]
+    #[arg(short, long, action = clap::ArgAction::SetTrue)]
     listen: bool,
 }
 
