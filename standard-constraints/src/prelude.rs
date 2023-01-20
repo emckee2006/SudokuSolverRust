@@ -6,3 +6,5 @@ pub use crate::non_repeat_constraint::*;
 pub use crate::orthogonal_pairs_constraint::*;
 pub use crate::pencilmark_constraint::*;
 pub use crate::standard_pair_type::*;
+pub use crate::thermometer_constraint::*;
+

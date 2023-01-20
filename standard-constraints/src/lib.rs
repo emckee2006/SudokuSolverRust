@@ -7,3 +7,4 @@ pub mod orthogonal_pairs_constraint;
 pub mod pencilmark_constraint;
 pub mod prelude;
 pub mod standard_pair_type;
+pub mod thermometer_constraint;
